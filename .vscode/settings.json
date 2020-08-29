@@ -1,0 +1,32 @@
+{
+  // ↓自動フォーマット関連
+  "editor.formatOnPaste": true, // ペースト時自動フォーマット
+  "editor.formatOnType": true, // 入力時自動フォーマット
+  "editor.formatOnSave": true, // 保存時自動フォーマット
+  // ↓自動フォーマット（html）
+  "html.format.endWithNewline": true, // htmlの末尾に改行を入れる
+  "html.format.wrapLineLength": 0, // htmlファイルで一行あたりの文字数制限を解除
+  "html.format.preserveNewLines": true, // 要素の前の改行を保持する
+  "html.format.maxPreserveNewLines": 1, // 保持できる最大の改行数
+  "html.format.wrapAttributes": "auto", // タグ内の属性を折り返さない
+  // ↓自動フォーマット（eslint）
+  "eslint.alwaysShowStatus": true, // 常にeslintの状態を表示する
+  "eslint.format.enable": true, // eslintの自動フォーマット
+  // ↓自動フォーマット（stylelint）
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  },
+  // ↓自動フォーマット（Format HTML in PHP）
+  "editor.tabSize": 2, // indent size
+  "[php]": {
+    "editor.formatOnSave": true // Format HTML in PHPの自動フォーマット
+  },
+  // ↓コードスペルチェック除外項目
+  "cSpell.userWords": [
+    "nuxtjs",
+    "stylelint",
+    "mixins",
+    "autoplace",
+    "Nuxt"
+  ]
+}

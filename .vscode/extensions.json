@@ -1,0 +1,14 @@
+{
+  // このワークスペースのユーザーに推奨される拡張機能のリストです。
+  "recommendations": [
+    "octref.vetur",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "rifi2k.format-html-in-php"
+  ],
+  // このワークスペースのユーザーに推奨してはいけない拡張機能の一覧です。
+  "unwantedRecommendations": [
+    "esbenp.prettier-vscode"
+  ]
+}
